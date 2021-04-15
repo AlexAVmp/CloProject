@@ -1,4 +1,5 @@
 body {
+    background-color: whitesmoke;
 }
 
 .wrapper {
@@ -65,6 +66,7 @@ body {
     display: flex;
     width: 100%;
     min-height: 724px;
+    background-color: white;
 }
 
 .secondsection__text {
@@ -224,6 +226,7 @@ body {
     display: flex;
     width: 100%;
     min-height: 550px;
+    background-color: white;
 }
 
 .fourthsection__image {
@@ -356,6 +359,7 @@ body {
 .sixthsection {
     width: 100%;
     max-height: 755px;
+    background-color: white;
 }
 
 .sixthsection__inner {
@@ -437,21 +441,17 @@ body {
     margin: 0 auto;
 }
 
-.seventhsection__text p {
-    margin-block-start: 0;
-}
-
 .seventhsection__inputs {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    height: 8%;
 }
 
 .seventhsection__button {
     display: flex;
     align-items: center;
-    width: 250px;
-    height: 35px;
+    width: 20%;
     background-color: #ff6d6d;
     border-radius: 2px;
 }
@@ -469,15 +469,15 @@ body {
 
 input {
     background-color: #464c77;
-    width: 250px;
-    height: 35px;
+    width: 22.1%;
     border: 0;
+    margin-right: 1%;
 }
 
 input::placeholder { 
     font-family: Roboto;
     color: #f6f5f3; 
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 300;
     line-height: 26px;
@@ -489,6 +489,7 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4%;
 }
 
 .seventhsection__text p {
@@ -496,7 +497,7 @@ input::placeholder {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 30px;
     letter-spacing: 0em;
     color: #ff6d6d;
     margin-block-start: 0;
@@ -508,41 +509,30 @@ input::placeholder {
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 30px;
     letter-spacing: 0em;
     color: white;
     margin-block-start: 0;
+}
+
+.eighthsection {
+    width: 100%;
+    height: 333px;
+    background-color: white;
+}
+
+.eighthsection__inner {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
 }
 
 
 
 
 
-@media (max-width: 700px) {
-    .firstsection__items h1 {
-        font-size: 30px;
-        line-height: 40px;
-    }
 
-    .firstsection {
-        height: 400px;
-    }
 
-    .secondsection {
-        min-height: 500px;
-    }
-
-    .secondsection__image {
-        display: none;
-    }
-
-    .secondsection__items {
-        width: 100%;
-    }
-
-    .secondsection__text {
-        margin: 0 2% 0 2%;
-    }
 
 
 
