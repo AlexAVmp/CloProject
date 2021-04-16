@@ -69,7 +69,7 @@ body {
 .secondsection__text {
     display: flex;
     flex-direction: column;
-    margin: 0 10% 0 2%;
+    margin: 0 2%;
 }
 
 .secondsection__items {
@@ -182,7 +182,7 @@ body {
 .thirdsection__columns {
     display: flex;
     justify-content: space-around;
-    margin: 35px;
+    margin: 3%;
 }
 
 .column {
@@ -202,7 +202,7 @@ body {
     font-size: 22px;
     font-style: normal;
     font-weight: 300;
-    line-height: 50px;
+    line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
     margin: 10px auto 0 auto;
@@ -714,14 +714,14 @@ body {
     margin-top: 6%;
 }
 
-@media (max-width: 375px) {
-    .firstsection {
-        height: 400px;
+@media (max-width: 376px){
+    .column h3 {
+        font-size: 20px;
+        line-height: 25px;
     }
-
 }
 
-@media (max-width: 700px) {
+@media (min-width: 375px) and (max-width: 700px) {
     .firstsection {
         height: 400px;
     }
@@ -750,7 +750,7 @@ body {
     }
 
     .secondsection__secondp {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 22px;
         text-align: justify;
         margin-bottom: 4%
@@ -763,12 +763,86 @@ body {
     .secondsection__image {
         display: none;
     }
-}
+
+    .thirdsection {
+        min-height: 300px;
+    }
+
+    .thirdsection__topic p {
+        text-align: center;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .column h3 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .column p {
+        display: none;
+    }
+
+    .fourthsection {
+        min-height: 250px;
+    }
+
+    .fourthsection__image {
+        display: none;
+    }
+
+    .fourthsection__image img {
+        display: none;
+    }
+
+    .fourthsection__inner p {
+        text-align: center;
+        margin-top: 4%;
+    }
+
+    .fourthsection__inner h2 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .fourthsection__inner h3 {
+        font-size: 13px;
+        line-height: 25px;
+        text-align: justify;
+        margin-bottom: 4%
+    }
+
+    .sixthsection {
+        height: 550px;
+    }
+
+    .sixthsection__text h2 {
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .sixthsection__text h3 {
+        text-align: justify;
+        font-size: 13px;
+        line-height: 25px;
+        margin-block-start: 0;
+    }
+}   
 
 @media (min-width: 700px) and (max-width: 1000px) {
     .firstsection__items h1 {
         font-size: 55px;
         line-height: 60px;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1100px) {
+    .fourthsection__image img {
+        max-width: 300px;
+        max-height: 150px;
     }
 }
 
