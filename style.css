@@ -43,6 +43,8 @@ body {
 
 .firstsection__items button {
     display: flex;
+    text-align: center;
+    justify-content: center;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -447,6 +449,8 @@ body {
 
 .seventhsection__button {
     display: flex;
+    text-align: center;
+    justify-content: center;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -669,6 +673,8 @@ body {
 
 .eighthsection__button {
     display: flex;
+    text-align: center;
+    justify-content: center;
     margin: 4% 0 0 0;
 }
 
